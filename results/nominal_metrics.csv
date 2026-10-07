@@ -1,0 +1,5 @@
+controller,overshoot_pct,rise_time,settling_time,steady_state_error,iae,itae,peak_voltage,dist_peak_dev,dist_recovery_time
+ZN classic,8.27,0.362,0.832,0.004783,30.43,6.996,12,0.6735,0.188
+ZN no-overshoot,14.44,0.364,1.464,0.2567,34.46,11.97,12,1.227,0.63
+Optimised (DE),4.442,0.362,0.69,2.759e-08,29.37,5.984,12,0.5629,0.184
+"ZN classic, no anti-windup",114.8,0.362,,81.99,332.1,894.5,12,126.1,
