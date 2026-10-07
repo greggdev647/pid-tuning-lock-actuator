@@ -1,0 +1,20 @@
+Plant: K=20.0, tau_m=0.15, tau_e=0.01  ->  Ku=5.333 V/deg, Pu=0.2433 s
+Optimiser: 1845 cost evaluations in 23 s, best cost 5.984, gains Gains(kp=3.411923731626895, ki=19.943802690304494, kd=0.15772628746755474)
+
+Nominal plant:
+                             overshoot_pct  rise_time  settling_time  steady_state_error      iae     itae  peak_voltage  dist_peak_dev  dist_recovery_time
+controller                                                                                                                                                
+ZN classic                          8.270      0.362          0.832               0.005   30.432    6.996          12.0          0.674               0.188
+ZN no-overshoot                    14.443      0.364          1.464               0.257   34.459   11.973          12.0          1.227               0.630
+Optimised (DE)                      4.442      0.362          0.690               0.000   29.374    5.984          12.0          0.563               0.184
+ZN classic, no anti-windup        114.826      0.362            NaN              81.989  332.095  894.523          12.0        126.134                 NaN
+
+Robustness over 200 perturbed plants:
+                             success_rate_pct  median_itae  p90_itae  median_overshoot_pct  p90_overshoot_pct  median_settling_s  never_settled_pct  median_dist_dev_deg
+controller                                                                                                                                                             
+ZN classic                              80.5         7.15     11.08                  8.58              11.14               0.93                0.0                 0.67
+ZN no-overshoot                          0.0        12.06     21.42                 14.70              15.87               1.46                1.0                 1.33
+Optimised (DE)                         100.0         5.96      8.97                  4.84               6.79               0.69                0.0                 0.56
+ZN classic, no anti-windup               0.0       865.73   1090.05                115.95             121.93               2.49               98.0               133.05
+
+Wrote tables and figures to /home/claude/pid-tuning-lock-actuator/results
