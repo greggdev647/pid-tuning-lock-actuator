@@ -1,5 +1,0 @@
-controller,success_rate_pct,median_itae,p90_itae,median_overshoot_pct,p90_overshoot_pct,median_settling_s,never_settled_pct,median_dist_dev_deg
-ZN classic,80.5,7.155,11.08,8.581,11.14,0.93,0,0.6737
-ZN no-overshoot,0,12.06,21.42,14.7,15.87,1.462,1,1.332
-Optimised (DE),100,5.96,8.97,4.841,6.793,0.694,0,0.5631
-"ZN classic, no anti-windup",0,865.7,1090,115.9,121.9,2.494,98,133
