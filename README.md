@@ -145,9 +145,6 @@ results/            tables (CSV) and figures (PNG)
 - Optimise for the worst case over a set of plants instead of only the nominal one.
 - Check the same controllers in the original Simulink model.
 
-## Acknowledgements
-
-Developed with assistance from Claude (Anthropic).
 
 ## License
 
